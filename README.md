@@ -4,18 +4,18 @@ Public iCalendar feeds hosted with GitHub Pages.
 
 ## Apple Calendar
 
-After GitHub Pages finishes deploying, subscribe with:
+Subscribe to either calendar with:
 
 ```text
 https://siriusest.github.io/calendar/UNSW_26T3_Tutorials.ics
+https://siriusest.github.io/calendar/myTimesheet-reminders-2026_1.ics
 ```
 
 In Apple Calendar, choose **File → New Calendar Subscription**, paste the URL,
 and choose how often Calendar should refresh it.
 
-`UNSW_26T3_Tutorials.ics` is currently a valid empty calendar. Replace its
-contents with the real timetable while keeping the filename unchanged; existing
-subscriptions will then receive the updated events automatically.
+Keep each filename unchanged when updating it so existing subscriptions receive
+the new events automatically.
 
 To publish a local update, commit it on `main`, then run:
 
