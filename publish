@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+git_bin=git
+if [ -x /Applications/Xcode.app/Contents/Developer/usr/bin/git ]; then
+  git_bin=/Applications/Xcode.app/Contents/Developer/usr/bin/git
+fi
+
+"$git_bin" push origin main
+"$git_bin" push origin main:gh-pages
