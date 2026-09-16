@@ -7,7 +7,10 @@ Public iCalendar feeds hosted with GitHub Pages.
 Subscribe to either calendar with:
 
 ```text
+COMP3331 26T3 Tutorials:
 https://siriusest.github.io/calendar/UNSW_26T3_Tutorials.ics
+
+myTimesheet reminders:
 https://siriusest.github.io/calendar/myTimesheet-reminders-2026_1.ics
 ```
 
